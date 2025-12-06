@@ -1,15 +1,28 @@
 # Smart Health Risk Predictor
-Diabetes | Heart Disease | Stroke | Lung Cancer
+This project predicts the risk of four major health diseases using machine-learning models:
+->Diabetes
+->Heart Disease
+->Stroke
+->Lung Cancer
 
-This repository contains multiple machine-learning models trained to predict various health conditions such as Diabetes, Heart Disease, Stroke, and Lung Cancer.
-Each module includes:
+Each model is trained using real-world healthcare datasets and saved as .pkl files for direct use in applications like Streamlit or Desktop GUIs.
 
-Cleaned datasets
+🚀 Features
 
-Jupyter Notebooks with full training workflow
+✔ Predicts risk for four diseases with trained ML models
+✔ Fully reproducible Jupyter notebooks
+✔ Clean dataset preprocessing & feature engineering
+✔ Random Forest
+✔ Deployment-ready .pkl model files
+✔ Can be integrated with Streamlit 
 
-Saved ML models (.pkl)
+🧠 ML Workflow
 
-Python scripts for model testing & deployment
+Each notebook includes:
 
-The project demonstrates end-to-end ML development — including preprocessing, feature engineering, model building, evaluation, and deployment-ready pickle files.
+1.Data Cleaning & Missing Value Handling
+2.Label Encoding & Feature Selection
+3.Model Building - (Random Forest)
+4.Performance Evaluation
+5.Saving the Model (joblib pickle)
+
