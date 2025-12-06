@@ -1,0 +1,21 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints
+
+# virtual environments
+venv/
+env/
+.venv/
+
+# Model files
+*.pkl
+models/*.pkl
+
+# System files
+.DS_Store
+Thumbs.db
