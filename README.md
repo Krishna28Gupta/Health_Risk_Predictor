@@ -97,10 +97,12 @@ streamlit run app/main.py
 
 
 ### 🔹 Home Page
-![Home Page](proj_screenshots/Homepage.png)
+<img width="1920" height="1013" alt="Homepage png" src="https://github.com/user-attachments/assets/fe30d59d-893a-466e-b01f-2df2a755e8bd" />
+
 
 ### 🔹 Diabetes Form
-![Lung Cancer Form](proj_screenshots/Diabetes_Risk.png)
+<img width="1920" height="1019" alt="DiabetesRisk png" src="https://github.com/user-attachments/assets/c6446e6d-c2ab-442e-903c-8a51f9e4467a" />
+
 
 
 ---
@@ -124,5 +126,6 @@ Feel free to open issues or submit pull requests to improve the project!
 **Krishna Gupta**  
 Email: guptak143600@gmail.com 
 GitHub: https://github.com/Krishna28Gupta
+
 
 
