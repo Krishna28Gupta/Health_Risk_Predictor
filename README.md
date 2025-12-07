@@ -1,28 +1,128 @@
-# Smart Health Risk Predictor
-This project predicts the risk of four major health diseases using machine-learning models:
-->Diabetes
-->Heart Disease
-->Stroke
-->Lung Cancer
+# 🩺 Health Risk Prediction Portal
 
-Each model is trained using real-world healthcare datasets and saved as .pkl files for direct use in applications like Streamlit or Desktop GUIs.
+This project is a **Machine Learning–powered Health Risk Prediction System** built using **Streamlit**.  
+It predicts the risk of **Lung Cancer, Stroke, Diabetes, and Heart Disease** based on user-entered health data.
 
-🚀 Features
+The models are trained using popular medical datasets and saved as `.pkl` files for fast inference.
 
-✔ Predicts risk for four diseases with trained ML models
-✔ Fully reproducible Jupyter notebooks
-✔ Clean dataset preprocessing & feature engineering
-✔ Random Forest
-✔ Deployment-ready .pkl model files
-✔ Can be integrated with Streamlit 
+---
 
-🧠 ML Workflow
+## 🚀 Features
+- ✔ Predict **4 major health risks**  
+- ✔ User-friendly **Streamlit web interface**  
+- ✔ Pre-trained ML models using:
+  - Random Forest
+- ✔ Clean modular code  
+- ✔ Real-time predictions  
+- ✔ Completely open-source  
 
-Each notebook includes:
+---
 
-1.Data Cleaning & Missing Value Handling
-2.Label Encoding & Feature Selection
-3.Model Building - (Random Forest)
-4.Performance Evaluation
-5.Saving the Model (joblib pickle)
+## 📂 Project Structure
+
+```
+Health_Risk_Predictor/
+│
+├── data/
+│   ├── diabetes_prediction_dataset.csv
+│   ├── healthcare-dataset-stroke-data.csv
+│   ├── heart (1).csv
+│   └── survey lung cancer.csv
+│
+├── models/
+│   ├── diabetes_prediction_model.pkl
+│   ├── HeartDisease_prediction_model.pkl
+│   ├── LungCancer_prediction_model.pkl
+│   ├── stroke_prediction_model.pkl
+│   └── label_encoders.pkl
+│
+├── notebooks/
+│   ├── diabetes.ipynb
+│   ├── HeartDisease.ipynb
+│   ├── Lung_Cancer.ipynb
+│   └── stroke_pred.ipynb
+│
+├── app/
+│   └── main.py
+│
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 🛠 Tech Stack
+
+- **Python 3.x**
+- **Streamlit**
+- **Pandas, NumPy**
+- **Scikit-Learn**
+- **Joblib**
+
+---
+
+## 📦 Installation (Local Setup)
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/Health_Risk_Predictor.git
+cd Health_Risk_Predictor
+```
+
+### 2️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ Run the Streamlit app
+```bash
+streamlit run app/main.py
+```
+
+---
+
+## 📊 Machine Learning Models
+
+| Disease        | Model Used | Accuracy | File |
+|----------------|------------|----------|-----------------------------|
+| Lung Cancer    | Random Forest | 89% | `LungCancer_prediction_model.pkl` |
+| Stroke         | Random Forest | 84% | `stroke_prediction_model.pkl` |
+| Diabetes       | Random Forest | 97% | `diabetes_prediction_model.pkl` |
+| Heart Disease  | Random Forest | 89% | `HeartDisease_prediction_model.pkl` |
+
+
+---
+
+## 🖼 Screenshots
+
+
+### 🔹 Home Page
+![Home Page](proj_screenshots/Homepage.png)
+
+### 🔹 Diabetes Form
+![Lung Cancer Form](proj_screenshots/Diabetes_Risk.png)
+
+
+---
+
+## ⚠️ Disclaimer
+
+This application provides **risk predictions only** based on statistical models trained on historical datasets.  
+It **cannot replace professional medical diagnosis or treatment**.  
+Consult a qualified healthcare professional for actual medical concerns.
+
+---
+
+## ⭐ Contribution
+
+Feel free to open issues or submit pull requests to improve the project!
+
+---
+
+## 📧 Contact
+
+**Krishna Gupta**  
+Email: guptak143600@gmail.com 
+GitHub: https://github.com/Krishna28Gupta
+
 
